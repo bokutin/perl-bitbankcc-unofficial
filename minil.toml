@@ -1,0 +1,4 @@
+name = "Bitbankcc-Unofficial"
+# badges = ["travis"]
+module_maker="ModuleBuildTiny"
+

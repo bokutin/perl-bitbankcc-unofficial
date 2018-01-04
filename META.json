@@ -1,0 +1,65 @@
+{
+   "abstract" : "It's new $module",
+   "author" : [
+      "Tomohiro Hosaka <bokutin@bokut.in>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Minilla/v2.5.0, CPAN::Meta::Converter version 2.150010",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "Bitbankcc-Unofficial",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "author",
+         "builder"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build::Tiny" : "0.035"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Config::Merged" : "0",
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion::Fast" : "0.04",
+            "Test::PAUSE::Permissions" : "0.04",
+            "Test::Pod" : "1.41",
+            "Test::Spellunker" : "v0.2.7"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Digest::SHA" : "0",
+            "JSON::MaybeXS" : "0",
+            "Modern::Perl" : "0",
+            "Moo" : "0",
+            "MooX::Types::MooseLike" : "0",
+            "Params::Validate" : "0",
+            "URI::Template" : "0",
+            "perl" : "5.10"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::Internet" : "0"
+         }
+      }
+   },
+   "release_status" : "unstable",
+   "version" : "0.01",
+   "x_serialization_backend" : "JSON::PP version 2.94"
+}
